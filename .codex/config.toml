@@ -1,0 +1,9 @@
+# Codex Plugin Configuration
+name = "fortune-cookie"
+description = "Get a fortune cookie prediction for your coding session"
+version = "0.1.0"
+
+[commands]
+fortune = "node bin/fortune.js"
+fortune-roast = "node bin/fortune.js --personality roast"
+fortune-hype = "node bin/fortune.js --personality hype"

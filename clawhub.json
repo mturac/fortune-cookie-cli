@@ -1,0 +1,13 @@
+{
+  "name": "fortune-cookie-cli",
+  "version": "0.1.0",
+  "description": "🥠 Get a fortune cookie prediction for your coding session",
+  "author": "TURAC",
+  "repository": "https://github.com/mturac/fortune-cookie-cli",
+  "license": "MIT",
+  "keywords": ["cli", "fortune", "fun", "developer-tools"],
+  "install": "npm install -g fortune-cookie-cli",
+  "bin": {
+    "fortune": "./bin/fortune.js"
+  }
+}

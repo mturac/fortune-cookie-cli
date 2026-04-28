@@ -6,6 +6,12 @@
   "bin": {
     "fortune": "./bin/fortune.js"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "jest",
     "dev": "node bin/fortune.js"
