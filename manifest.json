@@ -1,0 +1,57 @@
+{
+  "name": "fortune-cookie-cli",
+  "version": "0.1.0",
+  "description": "🥠 Your terminal now predicts your coding future",
+  "author": "TURAC",
+  "license": "MIT",
+  "repository": "https://github.com/mturac/fortune-cookie-cli",
+  "homepage": "https://github.com/mturac/fortune-cookie-cli#readme",
+  "bugs": "https://github.com/mturac/fortune-cookie-cli/issues",
+  "keywords": [
+    "cli",
+    "fortune",
+    "cookie",
+    "developer",
+    "fun",
+    "terminal",
+    "productivity",
+    "openclaw",
+    "claude-code",
+    "skill"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "install": {
+    "global": "npm install -g fortune-cookie-cli",
+    "local": "npm install fortune-cookie-cli"
+  },
+  "bin": {
+    "fortune": "./bin/fortune.js"
+  },
+  "categories": [
+    "developer-tools",
+    "productivity",
+    "fun"
+  ],
+  "platforms": [
+    "macos",
+    "linux",
+    "windows"
+  ],
+  "integrations": {
+    "openclaw": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": false,
+    "vscode": false
+  },
+  "icons": {
+    "default": "🥠",
+    "zen": "🧘",
+    "hype": "🎤",
+    "roast": "🔥",
+    "nostradamus": "🔮",
+    "shakespeare": "🎭"
+  }
+}

@@ -6,6 +6,25 @@ A CLI tool that predicts your coding future every time you save. Because every d
 
 ![Demo](assets/demo.gif)
 
+## 🚀 One-Line Install
+
+```bash
+npm install -g fortune-cookie-cli
+```
+
+**Or from your favorite marketplace:**
+- `clawhub install fortune-cookie-cli`
+- `claude plugin install fortune-cookie-cli`
+- `codex plugin install fortune-cookie-cli`
+
+## 🎮 Usage (Zero Config)
+
+```bash
+fortune              # Get a random fortune
+fortune --personality roast    # Get roasted
+fortune --personality hype     # Get hyped
+```
+
 ## ✨ What is this?
 
 Fortune Cookie CLI adds mystical predictions to your coding workflow. Every time you save a file, run a command, or finish a task, it serves you a fortune cookie message with coding wisdom, warnings, and occasionally roasting.
@@ -13,19 +32,11 @@ Fortune Cookie CLI adds mystical predictions to your coding workflow. Every time
 ## 🎯 Features
 
 - 🥠 Random fortune cookies on every save
-- 🔮 AI-powered predictions based on your code context
-- 🎭 Multiple personalities (Zen Master, Hype Man, Roaster, Nostradamus)
-- 📊 Fortune accuracy tracking (it learns!)
+- 🔮 225+ fortunes across 5 personalities
+- 🎭 Zen, Hype, Roast, Nostradamus, Shakespeare modes
+- 📊 Fortune accuracy tracking
 - 🎨 Beautiful terminal animations
-- 🔔 Slack/Discord integration (share your fortunes)
-
-## 🚀 Installation
-
-```bash
-npm install -g fortune-cookie-cli
-# or
-npx fortune-cookie-cli
-```
+- 🔔 Zero configuration required
 
 ## 🎮 Usage
 
